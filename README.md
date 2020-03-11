@@ -1,40 +1,13 @@
-### 一个导航
+1.把不全面名的搜索引擎尽量丰富了
 
-------------
+yandex、Qwant、Ecosia、Goober、Chinaso、360搜索、Naver这几个搜索，覆盖面也比较全了，虽然有些可能用不上，但是世界排名比较前或国内比较小众且搜索结果还算可以的添加进去了，其他小众搜索，搜索结果不怎么理想就没添加进去。
 
-市面上有很多知名的导航，但是我都不太喜欢。不是铺满广告，就是信息太杂。所以尝试自己写了个导航页，支持响应式。绝对无添加无防腐剂！太低版本的浏览器（比如IE8以下）显示可能有问题，不过也没打算适配。
+2.调整右下角天气的样式
 
-#### Demo
+因为添加了多了搜索引擎，所以手机版面，部分搜索引擎会被天气插件遮挡，所以移动端隐藏了天气样式
 
-------------
+3.去除了原作者下方的有更新动态提醒状态条，适合我这种有强迫症的人
 
-地址：[点击跳转](http://www.orgloft.com/page/search/)
+4.导航是全静态，除了上面三点，其他位置没做任何更改
 
-#### 响应式
-
-------------
-
-**桌面端**
-
-![桌面端预览](https://s2.ax1x.com/2020/03/02/3RYo4A.gif)
-
-**移动端**
-
-![移动端预览](https://s2.ax1x.com/2020/03/02/3RaORs.gif)
-
-
-#### 开源相关
-
-------------
-
-Bootstrap：[https://getbootstrap.com](https://getbootstrap.com "https://getbootstrap.com")
-
-CSSFX：[https://cssfx.netlify.com](https://cssfx.netlify.com "https://cssfx.netlify.com")
-
-jQuery：[https://jquery.com](https://jquery.com "https://jquery.com")
-
-slideout：[https://slideout.js.org](https://slideout.js.org "https://slideout.js.org")
-
-font-awesome：[https://fontawesome.com](https://fontawesome.com "https://fontawesome.com")
-
-知心天气：[https://www.seniverse.com/](https://www.seniverse.com/ "https://www.seniverse.com/")
+修改作者地址：https://gitee.com/vz1/vz1/

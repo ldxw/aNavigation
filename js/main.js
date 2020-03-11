@@ -145,41 +145,6 @@ $(function() {
       color: '#4285f4',
       placeholder: '咕噜咕噜...'
     }, {
-      name: 'bing',
-      icon: 'img/bing-xs.png',
-      searchlink: 'https://cn.bing.com/search',
-      searchname: 'q',
-      color: '#00868B',
-      placeholder: 'Bing搜索...'
-    }, {
-      name: 'yahoo',
-      icon: 'img/yahoo-xs.png',
-      searchlink: 'https://search.yahoo.com/search',
-      searchname: 'p',
-      color: '#5f01d1',
-      placeholder: 'Yahoo~'
-    }, {
-      name: 'magi',
-      icon: 'img/magi-xs.png',
-      searchlink: 'https://magi.com/search',
-      searchname: 'q',
-      color: 'black',
-      placeholder: 'Mag[i]...'
-    }, {
-      name: 'miji',
-      icon: 'img/miji-xs.png',
-      searchlink: 'https://mijisou.com/',
-      searchname: 'q',
-      color: '#575757',
-      placeholder: '不追踪你的搜索引擎...'
-    }, {
-      name: 'sougou',
-      icon: 'img/sougou-xs.png',
-      searchlink: 'https://www.sogou.com/web',
-      searchname: 'query',
-      color: '#f94c18',
-      placeholder: '搜狗搜索...'
-    }, {
       name: 'duckduckgo',
       icon: 'img/duckduckgo-xs.png',
       searchlink: 'https://duckduckgo.com',
@@ -194,12 +159,75 @@ $(function() {
       color: '#ffca74',
       placeholder: '手动狗头.jpg'
     }, {
+	  name: 'bing',
+      icon: 'img/bing-xs.png',
+      searchlink: 'https://cn.bing.com/search',
+      searchname: 'q',
+      color: '#00868B',
+      placeholder: 'Bing搜索...'
+    }, {
+      name: 'miji',
+      icon: 'img/miji-xs.png',
+      searchlink: 'https://mijisou.com/',
+      searchname: 'q',
+      color: '#575757',
+      placeholder: '不追踪你的搜索引擎...'
+    }, {
+      name: 'qwant',
+      icon: 'img/qwant-xs.png',
+      searchlink: 'https://www.qwant.com/',
+      searchname: 'q',
+      color: '#AF27CC',
+      placeholder: '源自法国，不追踪你的搜索引擎...'
+    }, {
+      name: 'ecosia',
+      icon: 'img/ecosia-xs.png',
+      searchlink: 'https://www.ecosia.org/search',
+      searchname: 'q',
+      color: '#33AEB9',
+      placeholder: '拿80%利润用来做慈善的搜索'
+    },  {
+      name: 'yandex',
+      icon: 'img/yandex-xs.png',
+      searchlink: 'https://www.yandex.com/search',
+      searchname: 'text',
+      color: '#FF0000',
+      placeholder: '毛子的搜索引擎...'
+    }, {
+      name: 'sougou',
+      icon: 'img/sougou-xs.png',
+      searchlink: 'https://www.sogou.com/web',
+      searchname: 'query',
+      color: '#f94c18',
+      placeholder: '搜狗搜索...'
+    }, {
+      name: 'toutiao',
+      icon: 'img/toutiao-xs.png',
+      searchlink: 'https://m.toutiao.com/search',
+      searchname: 'keyword',
+      color: '#ed2f28',
+      placeholder: '搜今日头条...'
+    }, {
       name: 'wechat',
       icon: 'img/wechat-xs.png',
       searchlink: 'https://weixin.sogou.com/weixin',
       searchname: 'query',
       color: '#2ca43a',
       placeholder: '搜微信文章...'
+    }, {
+      name: 'quark',
+      icon: 'img/quark-xs.png',
+      searchlink: 'https://quark.sm.cn/s',
+      searchname: 'q',
+      color: '#6182f6',
+      placeholder: '夸克搜索...'
+    }, {
+	  name: 'yahoo',
+      icon: 'img/yahoo-xs.png',
+      searchlink: 'https://search.yahoo.com/search',
+      searchname: 'p',
+      color: '#5f01d1',
+      placeholder: 'Yahoo~'
     }, {
       name: 'seeres',
       icon: 'img/seeres-xs.png',
@@ -208,12 +236,19 @@ $(function() {
       color: '#414baa',
       placeholder: 'private search...'
     }, {
-      name: 'quark',
-      icon: 'img/quark-xs.png',
-      searchlink: 'https://quark.sm.cn/s',
+      name: 'haosou',
+      icon: 'img/haosou-xs.png',
+      searchlink: 'https://www.so.com/s',
       searchname: 'q',
-      color: '#6182f6',
-      placeholder: '夸克搜索...'
+      color: '#414baa',
+      placeholder: '360搜索...'
+    }, {
+      name: 'goobe',
+      icon: 'img/goobe-xs.png',
+      searchlink: 'https://goobe.io/search.aspx',
+      searchname: 'k',
+      color: '#009CFA',
+      placeholder: '一个好用的"程序员搜索"'
     }, {
       name: 'taobao',
       icon: 'img/taobao-xs.png',
@@ -243,12 +278,12 @@ $(function() {
       color: '#24292e',
       placeholder: '全球最大的开源社区...'
     }, {
-      name: 'toutiao',
-      icon: 'img/toutiao-xs.png',
-      searchlink: 'https://m.toutiao.com/search',
-      searchname: 'keyword',
-      color: '#ed2f28',
-      placeholder: '搜今日头条...'
+      name: 'magi',
+      icon: 'img/magi-xs.png',
+      searchlink: 'https://magi.com/search',
+      searchname: 'q',
+      color: 'black',
+      placeholder: 'Mag[i]...'
     }, {
       name: 'weibo',
       icon: 'img/weibo-xs.png',
@@ -263,6 +298,20 @@ $(function() {
       searchname: 'q',
       color: '#1087eb',
       placeholder: '我们都是有问题的人...'
+    }, {
+      name: 'chinaso',
+      icon: 'img/chinaso-xs.png',
+      searchlink: 'http://www.chinaso.com/search/pagesearch.htm',
+      searchname: 'q',
+      color: '#1087eb',
+      placeholder: '嗯、中国搜索...'
+    }, {
+      name: 'naver',
+      icon: 'img/naver-xs.png',
+      searchlink: 'https://search.naver.com/search.naver',
+      searchname: 'query',
+      color: '#1087eb',
+      placeholder: '韩国搜索引擎Naver'
     }, {
       name: 'kuaidi',
       icon: 'img/kuaidi-xs.png',
